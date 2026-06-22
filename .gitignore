@@ -1,0 +1,14 @@
+# Chaves e segredos — NUNCA versionar (regra R1)
+.env
+**/.env
+*.env
+!*.env.example
+
+# Dependencias (caso um dia sejam instaladas)
+node_modules/
+**/node_modules/
+
+# Logs e temporarios
+*.log
+npm-debug.log*
+.DS_Store

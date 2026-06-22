@@ -1,0 +1,16 @@
+{
+  "name": "jarvis-v6-backend",
+  "version": "0.1.0",
+  "description": "JARVIS v6 — backend cerebro (Fase F0). Subagentes especializados via API da Anthropic.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "perguntar": "node src/cli.js",
+    "servidor": "node src/server.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
